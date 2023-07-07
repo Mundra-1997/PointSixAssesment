@@ -23,7 +23,11 @@ const RandomImage = () => {
   <>
   <img src={image} alt="Random" />
    <ShareButton imageUrl={`${publicUrl}/preview.jpg`} />
-   <Helper imageUrl = {image} deployedUrl={deployedUrl}/>
+   {/* <Helper imageUrl = {image} deployedUrl={deployedUrl}/> */}
+
+
+
+   //rgdgdg
   </>);
  
 };
